@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Paurakh Saud</string>
+    <string name="logo">logo of the app</string>
+    <string name="all_the_right_are_reserved_by_paurakh_saud">All the Right are Reserved by Paurakh Saud</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="myphoto">This is my photo</string>
+    <string name="paurakh_saud">Paurakh Saud</string>
+    <string name="age_19">Age : 19</string>
+    <string name="mobile_app_developer">Mobile App Developer</string>
+    <string name="myBIo">Hello, My name is Paurakh saud, and I am a second-year student at Islington college. I am currently studying Mobile Application Development, with an emphasis on app development.I have always had a passion for web apps and mobile apps. After one year my coding has become more refined and polished. I have been able to apply what I’ve learned by myself to motivate me to learn more effectively and convey my ideas more clearly. My goal is to eventually be able to code professionally and publish a app in Play Store.</string>
+    <string name="hire_me">Hire me</string>
+    <string name="my_cv">My CV</string>
+    <string name="this_is_scrollviewInContactPage">this is scrollViewInContactPage</string>
+    <string name="this_is_scrollviewincontactpage">this_is_scrollviewInContactPage</string>
+    <string name="arrowbutton">ArrowButton</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="illustrtion_contact">illustrtion_contact</string>
+    <string name="call_me">Call me</string>
+    <string name="email_me">Email me</string>
+    <string name="name">Name :</string>
+    <string name="enter_your_name">Enter Your name</string>
+    <string name="your_message">Your Message........</string>
+    <string name="message">Message :</string>
+    <string name="email">Email :</string>
+    <string name="_2_offers">2 Offers</string>
+    <string name="_1_clint">1 Clint</string>
+    <string name="_16_github_repo">16 Github Repo</string>
+    <string name="send">Send</string>
+    <string name="next">NEXT</string>
+    <string name="welcome_to_my_application">Welcome To My Application</string>
+    <string name="First_image_of_intro">First image of the intro</string>
+    <string name="third_image_of_intro">Third_image_of_intro</string>
+    <string name="back">Back</string>
+    <string name="second_image_of_intro">second_image_of_intro</string>
+    <string name="done">Done</string>
+    <string name="mySkill_scrollView">" This is scrollView in mySkill"</string>
+    <string name="this_is_the_profile_picture">This is the profile picture</string>
+</resources>
