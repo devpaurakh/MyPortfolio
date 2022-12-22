@@ -48,7 +48,7 @@
             android:layout_marginHorizontal="115dp"
             android:fontFamily="sans-serif-light"
             android:text="@string/mobile_app_developer"
-            android:textColor="@color/secondaryTextColor"
+            android:textColor="@color/viewColor_forline"
             android:textSize="18sp"
             android:textStyle="bold" />
 

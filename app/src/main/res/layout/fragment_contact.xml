@@ -40,7 +40,7 @@
             android:layout_height="270dp"
             android:layout_gravity="center"
             android:contentDescription="@string/illustrtion_contact"
-            android:src="@drawable/ic_contactimg"
+            android:src="@drawable/ic_contacting"
             tools:ignore="ImageContrastCheck" />
 
         <LinearLayout

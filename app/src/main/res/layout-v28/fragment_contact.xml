@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1EFEF"
+    android:background="@color/contactBackGroundColor"
     android:contentDescription="@string/this_is_scrollviewincontactpage"
     tools:context=".ContactFragment">
 
@@ -15,7 +15,6 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:background="#E3E0E0"
             android:layout_marginTop="0dp"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -23,15 +22,15 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="334dp"
                 android:layout_height="wrap_content"
-                android:text="@string/contact_me"
-                android:textSize="26sp"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="30dp"
-                android:textStyle="bold"
+                android:text="@string/contact_me"
                 android:textColor="@color/black"
-                />
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:drawableEndCompat="@drawable/ic_baseline_phone_24" />
 
         </LinearLayout>
 
@@ -42,7 +41,7 @@
             android:layout_height="270dp"
             android:layout_gravity="center"
             android:contentDescription="@string/illustrtion_contact"
-            android:src="@drawable/ic_contactimg"
+            android:src="@drawable/ic_contacting"
             tools:ignore="ImageContrastCheck" />
 
         <LinearLayout
