@@ -28,9 +28,9 @@
         android:textColor="#5E5D5D"
         android:textSize="12sp"
         android:gravity="center"
-        android:drawableStart="@drawable/ic_baseline_copyright_24"
         android:drawablePadding="5dp"
         app:layout_constraintEnd_toEndOf="@+id/imageViewLogo"
         app:layout_constraintStart_toStartOf="@+id/imageViewLogo"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo"
+        app:drawableStartCompat="@drawable/ic_baseline_copyright_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

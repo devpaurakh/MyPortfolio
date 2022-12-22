@@ -36,4 +36,17 @@
     <string name="done">Done</string>
     <string name="mySkill_scrollView">" This is scrollView in mySkill"</string>
     <string name="this_is_the_profile_picture">This is the profile picture</string>
+    <string name="skill">My Skill</string>
+    <string name="my_skills">My Skills</string>
+    <string name="_1_soft_skills">1. Soft Skills</string>
+    <string name="_2_programming_skills">2. Programming Skills</string>
+    <string name="conversion">Conversion</string>
+    <string name="creativity">Creativity</string>
+    <string name="critical_thinking">Critical Thinking</string>
+    <string name="teamwork">Teamwork</string>
+    <string name="java">Java</string>
+    <string name="flutter">Flutter</string>
+    <string name="c_sharp">C- Sharp</string>
+    <string name="swift">Swift</string>
+    <string name="html_css_and_javascript">HTML, CSS And Javascript</string>
 </resources>

@@ -11,6 +11,7 @@
     <color name="viewColor_forline">#9A797A7A</color>
     <color name="btncolor">#678983</color>
     <color name="contact_bg">#CFCDCD</color>
+    <color name="cardColor">#F3F0F0</color>
 
 
 </resources>
