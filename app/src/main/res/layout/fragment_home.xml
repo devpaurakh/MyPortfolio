@@ -18,23 +18,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-
-        android:layout_width="385dp"
-        android:layout_height="402dp"
+        android:layout_width="386dp"
+        android:layout_height="471dp"
         android:background="@drawable/homefag_back_item"
+        android:gravity="center"
         android:orientation="vertical"
         android:padding="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.479">
 
 
         <TextView
             android:id="@+id/myName"
-            android:layout_width="wrap_content"
+            android:layout_width="263dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="67dp"
+            android:layout_marginHorizontal="95dp"
             android:fontFamily="sans-serif-light"
             android:text="@string/paurakh_saud"
             android:textColor="@color/black"
@@ -43,20 +44,20 @@
 
         <TextView
             android:id="@+id/profession"
-            android:layout_width="wrap_content"
+            android:layout_width="228dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="90dp"
+            android:layout_marginHorizontal="115dp"
             android:fontFamily="sans-serif-light"
             android:text="@string/mobile_app_developer"
-            android:textColor="#5C5B5B"
+            android:textColor="@color/viewColor_forline"
             android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/Age"
-            android:layout_width="wrap_content"
+            android:layout_width="96dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="140dp"
+            android:layout_marginHorizontal="160dp"
             android:fontFamily="sans-serif-light"
             android:text="@string/age_19"
             android:textColor="#616161"
@@ -65,7 +66,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:orientation="horizontal"
             android:paddingHorizontal="18dp">
 
@@ -86,52 +87,15 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="377dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="17dp"
-                android:text="@string/_16_github_repo"
-                android:textColor="@color/black"
-                android:textSize="19sp" />
-
-            <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="17dp"
-                android:text="@string/_1_clint"
-                android:textColor="@color/black"
-                android:textSize="19sp" />
-
-            <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="17dp"
-                android:text="@string/_2_offers"
-                android:textColor="@color/black"
-                android:textSize="19sp" />
-
-        </LinearLayout>
-
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_width="354dp"
+            android:layout_height="284dp"
+            android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:padding="3dp"
             android:text="@string/myBIo"
-            android:textColor="#616161"
-            android:textSize="17sp"
-            tools:ignore="UnusedAttribute" />
+            android:textColor="@color/black"
+            android:textSize="17sp" />
     </LinearLayout>
 
 
