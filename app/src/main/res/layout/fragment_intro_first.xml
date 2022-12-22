@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IntroFirstFragment"
     android:orientation="vertical"
-    android:padding="16dp" >
+    android:padding="16dp"
+    tools:context=".IntroFirstFragment">
 
     <ImageView
         android:id="@+id/imageView"
@@ -20,28 +20,28 @@
     <TextView
         android:id="@+id/mainText"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_my_application"
         android:textColor="@color/black"
-        android:textSize="26sp"
-        android:text="@string/welcome_to_my_application"/>
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/subTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/welcome_to_my_application"
         android:textColor="@color/black"
-        android:textSize="18sp"
-        android:text="@string/welcome_to_my_application"/>
+        android:textSize="18sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="3dp"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:padding="3dp">
 
         <TextView
             android:id="@+id/Next"
