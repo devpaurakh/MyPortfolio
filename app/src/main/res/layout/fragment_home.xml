@@ -53,7 +53,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:text="@string/mobile_app_developer"
-                android:textColor="@color/viewColor_forline"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -76,25 +76,29 @@
                 android:paddingHorizontal="18dp">
 
                 <Button
+                    style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="154dp"
                     android:layout_height="59dp"
                     android:backgroundTint="@color/btncolor"
                     android:text="@string/hire_me"
+                    android:textColor="@color/white"
                     tools:ignore="TextContrastCheck" />
 
                 <Button
+                    style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="154dp"
                     android:layout_height="59dp"
                     android:layout_marginHorizontal="15dp"
                     android:backgroundTint="@color/btncolor"
                     android:text="@string/my_cv"
+                    android:textColor="@color/white"
                     tools:ignore="TextContrastCheck" />
 
             </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:justificationMode="inter_word"
                 android:padding="3dp"
@@ -102,6 +106,13 @@
                 android:textColor="@color/black"
                 android:textSize="17sp"
                 tools:ignore="UnusedAttribute" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/wanna_play_game" />
         </LinearLayout>
     </LinearLayout>
 

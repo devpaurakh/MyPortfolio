@@ -9,21 +9,21 @@
         <entry key="app/src/main/res/drawable/image_back_item.xml" value="0.183" />
         <entry key="app/src/main/res/drawable/item_for_card.xml" value="0.2425" />
         <entry key="app/src/main/res/drawable/navi_background.xml" value="0.235" />
-        <entry key="app/src/main/res/layout-v26/fragment_home.xml" value="0.16008911132812498" />
+        <entry key="app/src/main/res/layout-v26/fragment_home.xml" value="0.20188293457031248" />
         <entry key="app/src/main/res/layout-v28/fragment_contact.xml" value="0.32660980224609376" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_intro2.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_introslide.xml" value="0.26556752522786453" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21447143554687503" />
         <entry key="app/src/main/res/layout/activity_navigator.xml" value="0.3037037037037037" />
-        <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.31616973876953125" />
         <entry key="app/src/main/res/layout/fragment_hobbies.xml" value="0.3037037037037037" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.20414886474609378" />
         <entry key="app/src/main/res/layout/fragment_intro_first.xml" value="0.3662216186523438" />
         <entry key="app/src/main/res/layout/fragment_intro_second.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/fragment_intro_third.xml" value="0.24473419189453127" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.26875" />
-        <entry key="app/src/main/res/layout/fragment_skill.xml" value="0.17973231357552583" />
+        <entry key="app/src/main/res/layout/fragment_skill.xml" value="0.2791814712903696" />
         <entry key="app/src/main/res/layout/intro_one.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/intro_three.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/intro_two.xml" value="0.30885416666666665" />
