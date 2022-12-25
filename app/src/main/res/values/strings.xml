@@ -1,10 +1,10 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Paurakh Saud</string>
     <string name="logo">logo of the app</string>
     <string name="all_the_right_are_reserved_by_paurakh_saud">All the Right are Reserved by Paurakh Saud</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="myphoto">This is my photo</string>
+    <string name="myPhoto">This is my photo</string>
     <string name="paurakh_saud">Paurakh Saud</string>
     <string name="age_19">Age : 19</string>
     <string name="mobile_app_developer">Mobile App Developer</string>
@@ -12,8 +12,8 @@
     <string name="hire_me">Hire me</string>
     <string name="my_cv">My CV</string>
     <string name="this_is_scrollviewInContactPage">this is scrollViewInContactPage</string>
-    <string name="this_is_scrollviewincontactpage">this_is_scrollviewInContactPage</string>
-    <string name="arrowbutton">ArrowButton</string>
+    <string name="this_is_scrollViewInContactPage">this_is_scrollviewInContactPage</string>
+    <string name="arrowButton">ArrowButton</string>
     <string name="contact_me">Contact Me</string>
     <string name="illustrtion_contact">illustrtion_contact</string>
     <string name="call_me">Call me</string>
@@ -49,5 +49,21 @@
     <string name="c_sharp">C- Sharp</string>
     <string name="swift">Swift</string>
     <string name="html_css_and_javascript">HTML, CSS And Javascript</string>
-    <string name="wanna_play_game">Wanna Play Game ?</string>
+    <string name="wanna_play_game" tools:ignore="Typos">Wanna Play Game ?</string>
+    <string name="taptoplay">X\'s Turn - Tap to play</string>
+    <string name="welcome_to_tic_tac_toe">Welcome to Tic Tac Toe</string>
+    <string name="this_is_grid">This is grid</string>
+    <string name="oturn">O\'s Turn - Tap to play</string>
+    <string name="xturn">X\'s Turn - Tap to play</string>
+    <string name="x_wins">X Wins</string>
+    <string name="_7thbox">7thBOx</string>
+    <string name="ninthbox">NinthBOx</string>
+    <string name="eightBox">eightBox</string>
+    <string name="_6th_box">6th box</string>
+    <string name="_5th_box">5th Box</string>
+    <string name="_4th_box">4th box</string>
+    <string name="_3rd_box">3rd Box</string>
+    <string name="_2nd_box">2nd Box</string>
+    <string name="_1st_box">1st Box</string>
+    <string name="this_is_scrollviewincontactpage">this_is_scrollviewincontactpage</string>
 </resources>

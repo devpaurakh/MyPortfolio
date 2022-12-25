@@ -7,7 +7,6 @@ import android.os.Bundle;
 
 public class IntroActivity extends AppCompatActivity {
     ViewPager viewPager;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,5 +14,6 @@ public class IntroActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.viewpager);
         IntroAdpter adpter= new IntroAdpter(getSupportFragmentManager());
         viewPager.setAdapter(adpter);
+
     }
 }

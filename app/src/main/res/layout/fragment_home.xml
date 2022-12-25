@@ -1,120 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/constrain"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    android:layout_height="wrap_content">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/constrain"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="309dp"
-            android:contentDescription="@string/myphoto"
-            android:src="@drawable/ic_photo" />
+        android:layout_height="wrap_content"
+        tools:context=".HomeFragment">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/homefag_back_item"
             android:orientation="vertical"
-            android:padding="15dp">
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
 
-            <TextView
-                android:id="@+id/myName"
-                android:layout_width="wrap_content"
-
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/paurakh_saud"
-                android:textColor="@color/black"
-                android:textSize="35sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/profession"
+            <ImageView
+                android:id="@+id/imageView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:gravity="center"
-                android:text="@string/mobile_app_developer"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/Age"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/age_19"
-                android:textColor="#616161"
-                android:textSize="18sp" />
+                android:layout_height="309dp"
+                android:contentDescription="@string/myPhoto"
+                android:src="@drawable/ic_photo" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:layout_marginTop="5dp"
-                android:orientation="horizontal"
-                android:paddingHorizontal="18dp">
-
-                <Button
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:layout_width="154dp"
-                    android:layout_height="59dp"
-                    android:backgroundTint="@color/btncolor"
-                    android:text="@string/hire_me"
-                    android:textColor="@color/white"
-                    tools:ignore="TextContrastCheck" />
-
-                <Button
-                    style="?android:attr/buttonBarButtonStyle"
-                    android:layout_width="154dp"
-                    android:layout_height="59dp"
-                    android:layout_marginHorizontal="15dp"
-                    android:backgroundTint="@color/btncolor"
-                    android:text="@string/my_cv"
-                    android:textColor="@color/white"
-                    tools:ignore="TextContrastCheck" />
-
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:justificationMode="inter_word"
-                android:padding="3dp"
-                android:text="@string/myBIo"
-                android:textColor="@color/black"
-                android:textSize="17sp"
-                tools:ignore="UnusedAttribute" />
+                android:background="@drawable/homefag_back_item"
+                android:orientation="vertical"
+                android:padding="15dp">
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginTop="20dp"
-                android:text="@string/wanna_play_game" />
+
+                <TextView
+                    android:id="@+id/myName"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/paurakh_saud"
+                    android:textColor="@color/black"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/profession"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="@string/mobile_app_developer"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/age_19"
+                    android:textColor="#616161"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="18dp">
+
+                    <Button
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="154dp"
+                        android:layout_height="59dp"
+                        android:backgroundTint="@color/btncolor"
+                        android:text="@string/hire_me"
+                        android:textColor="@color/white"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="154dp"
+                        android:layout_height="59dp"
+                        android:layout_marginHorizontal="15dp"
+                        android:backgroundTint="@color/btncolor"
+                        android:text="@string/my_cv"
+                        android:textColor="@color/white"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:justificationMode="inter_word"
+                    android:padding="3dp"
+                    android:text="@string/myBIo"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    tools:ignore="UnusedAttribute" />
+
+                <Button
+                    android:id="@+id/buttonToGame"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableEnd="@drawable/ic_baseline_videogame_asset_24"
+                    android:text="@string/wanna_play_game" />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

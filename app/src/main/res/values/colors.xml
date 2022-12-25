@@ -13,6 +13,15 @@
     <color name="contact_bg">#CFCDCD</color>
     <color name="cardColor">#F3F0F0</color>
     <color name="contactBackGroundColor">#F1EFEF</color>
+    <color name="gameTitleColor">#1E88E5</color>
+    <color name="dialogBoxBackGround">#18CC0A</color>
+    <color name="reStartButton">#F4F4F4</color>
+    <color name="addPlayerBackGround">#A8D1D1</color>
+    <color name="pinkish">#9EA1D4</color>
+    <color name="gameBtnColor">#FD8A8A</color>
+    <color name="red">#F30303</color>
+    <color name="sky_blue">#039BE5</color>
+    <color name="mix_black_white">#94F3F0F0</color>
 
 
 </resources>

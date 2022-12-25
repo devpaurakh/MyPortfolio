@@ -3,19 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/Layout_outline.xml" value="0.2515" />
         <entry key="app/src/main/res/drawable/homefag_back_item.xml" value="0.183" />
         <entry key="app/src/main/res/drawable/ic_baseline_copyright_24.xml" value="0.235" />
         <entry key="app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.157" />
         <entry key="app/src/main/res/drawable/image_back_item.xml" value="0.183" />
+        <entry key="app/src/main/res/drawable/image_background_n_x.xml" value="0.2515" />
+        <entry key="app/src/main/res/drawable/imageback.xml" value="0.2515" />
         <entry key="app/src/main/res/drawable/item_for_card.xml" value="0.2425" />
+        <entry key="app/src/main/res/drawable/layout_outline.xml" value="0.2515" />
         <entry key="app/src/main/res/drawable/navi_background.xml" value="0.235" />
+        <entry key="app/src/main/res/drawable/round_orange_border.xml" value="0.2515" />
+        <entry key="app/src/main/res/drawable/round_shape.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/text_field_outline.xml" value="0.2515" />
+        <entry key="app/src/main/res/layout-v26/costume_dialog_for_game_draw.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout-v26/fragment_home.xml" value="0.20188293457031248" />
         <entry key="app/src/main/res/layout-v28/fragment_contact.xml" value="0.32660980224609376" />
+        <entry key="app/src/main/res/layout/activity_game.xml" value="0.268018018018018" />
         <entry key="app/src/main/res/layout/activity_intro.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_intro2.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_introslide.xml" value="0.26556752522786453" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21447143554687503" />
         <entry key="app/src/main/res/layout/activity_navigator.xml" value="0.3037037037037037" />
+        <entry key="app/src/main/res/layout/activity_player_adding.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/costume_dialog_for_game.xml" value="0.2989583333333333" />
+        <entry key="app/src/main/res/layout/dialog_box_for_error.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.31616973876953125" />
         <entry key="app/src/main/res/layout/fragment_hobbies.xml" value="0.3037037037037037" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.20414886474609378" />
@@ -36,5 +48,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.21163482666015626" />
+      </ProjectState>
+    </option>
   </component>
 </project>
