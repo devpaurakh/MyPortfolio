@@ -22,6 +22,7 @@
     <color name="red">#F30303</color>
     <color name="sky_blue">#039BE5</color>
     <color name="mix_black_white">#94F3F0F0</color>
+    <color name="tableColor">#51B435</color>
 
 
 </resources>

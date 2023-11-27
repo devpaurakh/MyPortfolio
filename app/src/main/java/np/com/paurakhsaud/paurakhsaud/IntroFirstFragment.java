@@ -1,5 +1,6 @@
 package np.com.paurakhsaud.paurakhsaud;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -15,6 +16,7 @@ public class IntroFirstFragment extends Fragment {
     TextView next;
     ViewPager viewPager;
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -22,8 +24,10 @@ public class IntroFirstFragment extends Fragment {
         View view =  inflater.inflate(R.layout.fragment_intro_first, container, false);
 
 
+
         viewPager = getActivity().findViewById(R.id.viewpager); //Initialize Viewpager from Main Activity
         next = view.findViewById(R.id.Next);
+
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override

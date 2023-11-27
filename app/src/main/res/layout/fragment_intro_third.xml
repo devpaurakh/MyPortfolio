@@ -18,23 +18,12 @@
         android:src="@drawable/ic_hero3" />
 
     <TextView
-        android:id="@+id/mainText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="@string/welcome_to_my_application"
-        android:textColor="@color/black"
-        android:textSize="26sp" />
-
-    <TextView
         android:id="@+id/subTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/welcome_to_my_application"
-        android:textColor="@color/black"
+        android:text="@string/fragThree"
         android:textSize="18sp" />
 
     <LinearLayout

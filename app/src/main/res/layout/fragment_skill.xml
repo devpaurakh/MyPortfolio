@@ -81,22 +81,23 @@
                         <ImageView
                             android:layout_width="78dp"
                             android:layout_height="103dp"
-                            android:src="@mipmap/ic_problem_solving" />
+                            android:src="@mipmap/ic_problem_solving"
+                            android:contentDescription="@string/problem_solving_attitude" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Problem Solving Attitude"
+                            android:text="@string/problem_solving_attitude"
                             android:textColor="@color/black"
                             android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="142dp"
                             android:gravity="center_horizontal"
                             android:justificationMode="inter_word"
                             android:padding="5dp"
-                            android:text="Your attitude is, in most areas of your life, the most important factor in determining success. It’s important to stay positive and believe you can overcome obstacles. This mindset will keep you motivated during the tougher periods at work."
+                            android:text="@string/critialThinkingTxt"
                             tools:ignore="UnusedAttribute" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -119,7 +120,8 @@
                         <ImageView
                             android:layout_width="78dp"
                             android:layout_height="103dp"
-                            android:src="@mipmap/ic_conversation" />
+                            android:src="@mipmap/ic_conversation"
+                            android:contentDescription="@string/conversion" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -134,7 +136,7 @@
                             android:gravity="center_horizontal"
                             android:justificationMode="inter_word"
                             android:padding="5dp"
-                            android:text="Your attitude is, in most areas of your life, the most important factor in determining success. It’s important to stay positive and believe you can overcome obstacles. This mindset will keep you motivated during the tougher periods at work."
+                            android:text="@string/conversactionTxt"
                             tools:ignore="UnusedAttribute" />
                     </LinearLayout>
 
@@ -157,6 +159,7 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:contentDescription="@string/critical_thinking"
                             android:layout_width="78dp"
                             android:layout_height="103dp"
                             android:src="@mipmap/ic_creativity" />
@@ -174,7 +177,7 @@
                             android:gravity="center_horizontal"
                             android:justificationMode="inter_word"
                             android:padding="5dp"
-                            android:text="Your attitude is, in most areas of your life, the most important factor in determining success. It’s important to stay positive and believe you can overcome obstacles. This mindset will keep you motivated during the tougher periods at work."
+                            android:text="@string/creativityTxt"
                             tools:ignore="UnusedAttribute" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -198,7 +201,8 @@
                         <ImageView
                             android:layout_width="78dp"
                             android:layout_height="103dp"
-                            android:src="@mipmap/ic_critical_thinking" />
+                            android:src="@mipmap/ic_critical_thinking"
+                            android:contentDescription="@string/critical_thinking" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -213,7 +217,7 @@
                             android:gravity="center_horizontal"
                             android:justificationMode="inter_word"
                             android:padding="5dp"
-                            android:text="Your attitude is, in most areas of your life, the most important factor in determining success. It’s important to stay positive and believe you can overcome obstacles. This mindset will keep you motivated during the tougher periods at work."
+                            android:text="@string/criticalThinkingTxt"
                             tools:ignore="UnusedAttribute" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -235,6 +239,7 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:contentDescription="@string/teamwork"
                             android:layout_width="78dp"
                             android:layout_height="103dp"
                             android:src="@mipmap/ic_teamwork" />
@@ -252,7 +257,7 @@
                             android:gravity="center_horizontal"
                             android:justificationMode="inter_word"
                             android:padding="5dp"
-                            android:text="Your attitude is, in most areas of your life, the most important factor in determining success. It’s important to stay positive and believe you can overcome obstacles. This mindset will keep you motivated during the tougher periods at work."
+                            android:text="@string/teamworkTxt"
                             tools:ignore="UnusedAttribute" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -298,27 +303,22 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:gravity="center_horizontal"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
 
                         <ImageView
+                            android:contentDescription="@string/java"
                             android:layout_width="78dp"
                             android:layout_height="103dp"
                             android:src="@mipmap/ic_java" />
 
                         <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/java"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="266dp"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:justificationMode="inter_word"
                             android:padding="5dp"
-                            android:text="Your attitude is, in most areas of your life, the most important factor in determining success. It’s important to stay positive and believe you can overcome obstacles. This mindset will keep you motivated during the tougher periods at work."
+                            android:text="@string/javaTxt"
                             tools:ignore="UnusedAttribute" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -339,6 +339,7 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:contentDescription="@string/flutter"
                             android:layout_width="78dp"
                             android:layout_height="103dp"
                             android:src="@mipmap/ic_flutter" />
@@ -356,7 +357,7 @@
                             android:gravity="center_horizontal"
                             android:justificationMode="inter_word"
                             android:padding="5dp"
-                            android:text="Your attitude is, in most areas of your life, the most important factor in determining success. It’s important to stay positive and believe you can overcome obstacles. This mindset will keep you motivated during the tougher periods at work."
+                            android:text="@string/flutterTxt"
                             tools:ignore="UnusedAttribute" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -378,45 +379,7 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="78dp"
-                            android:layout_height="103dp"
-                            android:src="@mipmap/ic_csharp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/c_sharp"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center_horizontal"
-                            android:justificationMode="inter_word"
-                            android:padding="5dp"
-                            android:text="Your attitude is, in most areas of your life, the most important factor in determining success. It’s important to stay positive and believe you can overcome obstacles. This mindset will keep you motivated during the tougher periods at work."
-                            tools:ignore="UnusedAttribute" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="300dp"
-                    android:layout_height="279dp"
-                    android:layout_marginHorizontal="20dp"
-                    app:cardBackgroundColor="@color/cardColor"
-                    app:cardCornerRadius="20dp"
-                    app:cardUseCompatPadding="true">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center"
-                        android:gravity="center_horizontal"
-                        android:orientation="vertical">
-
-                        <ImageView
+                            android:contentDescription="@string/swift"
                             android:layout_width="78dp"
                             android:layout_height="103dp"
                             android:src="@mipmap/ic_swift" />
@@ -434,7 +397,7 @@
                             android:gravity="center_horizontal"
                             android:justificationMode="inter_word"
                             android:padding="5dp"
-                            android:text="Your attitude is, in most areas of your life, the most important factor in determining success. It’s important to stay positive and believe you can overcome obstacles. This mindset will keep you motivated during the tougher periods at work."
+                            android:text="@string/SwiftTxt"
                             tools:ignore="UnusedAttribute" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -456,6 +419,7 @@
                         android:orientation="vertical">
 
                         <ImageView
+                            android:contentDescription="@string/html_css_and_javascript"
                             android:layout_width="78dp"
                             android:layout_height="103dp"
                             android:src="@mipmap/ic_html_css_js" />
@@ -473,7 +437,7 @@
                             android:gravity="center_horizontal"
                             android:justificationMode="inter_word"
                             android:padding="5dp"
-                            android:text="Your attitude is, in most areas of your life, the most important factor in determining success. It’s important to stay positive and believe you can overcome obstacles. This mindset will keep you motivated during the tougher periods at work."
+                            android:text="@string/htmlTxt"
                             tools:ignore="UnusedAttribute" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

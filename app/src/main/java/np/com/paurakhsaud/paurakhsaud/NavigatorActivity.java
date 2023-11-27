@@ -3,6 +3,7 @@ package np.com.paurakhsaud.paurakhsaud;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -23,10 +24,10 @@ public class NavigatorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigator);
         bottomNavigationView = findViewById(R.id.bottomNavi); //getting the bottom navigation view by id.
-
         //This will help to replace framelayout by homefragment. onCreate function.
         getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,homeFragment).commit();
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+            @SuppressLint("NonConstantResourceId")
             @Override
             public boolean onNavigationItemSelected(@NonNull  MenuItem item) {
                 switch (item.getItemId()){
@@ -47,6 +48,7 @@ public class NavigatorActivity extends AppCompatActivity {
                         getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,contactFragment).commit();
                         return true;
                     case R.id.profile:
+
                         //This will help to replace framelayout by profilefragment
                         getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,profileFragment).commit();
                         return true;
